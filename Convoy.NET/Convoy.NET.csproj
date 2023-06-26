@@ -7,7 +7,7 @@
     <PackageId>Convoy.Net</PackageId>
 
     <Authors>Adekunle Alugbin</Authors>
-    <Description>Unofficial .NET SDK for Convoy</Description>
+    <Description>Unofficial .NET SDK for Convoy.</Description>
     <PackageProjectUrl>hthttps://github.com/devadekunle/Convoy.Net</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>

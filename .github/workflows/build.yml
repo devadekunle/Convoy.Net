@@ -36,6 +36,9 @@ jobs:
       uses: actions/setup-dotnet@v3.1.0
       with: 
         dotnet-version: '${{ env.DOTNET_VERSION }}' 
+    
+    - run: pwd
+    - run: ls
 
     # Create the NuGet package in the folder from the environment variable NuGetDirectory
     - run: dotnet pack Convoy.NET.csproj --configuration Release --output ${{ env.NuGetDirectory }}
